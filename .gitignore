@@ -1,0 +1,11 @@
+# Example/reference netCDF files (e.g. grid, forcing, control-run output)
+# copied in locally for a collaborator to browse - never commit these.
+*.nc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Slurm logs
+workflows/logs/
+*.out
+*.err
