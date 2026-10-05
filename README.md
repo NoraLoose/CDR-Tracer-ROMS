@@ -31,6 +31,13 @@ between them is `tracers.opt`; there's no need to keep them separate, and you
 can mix and match DOR/OAE tracer definitions within one `tracers.opt` if you
 want both intervention types in a single run.
 
+These top-level `code_*/` directories hold only the four files that encode the
+CDR tracer method (`cppdefs.opt`, `param.opt`, `surf_flux.opt`,
+`tracers.opt`); everything else (output frequency, forcing file conventions,
+build files) is domain-specific and comes from your own setup. The paper's
+Pacific runs used `paper/pacific/roms/code_dor/` and `code_oae/`, which
+contain these same four files unchanged plus that domain-specific set.
+
 The tracer naming convention in `tracers.opt` is `{LOC}{AMPL}_{KIND}`, e.g.
 `VI7_DEFICIT`:
 - `LOC`: intervention location (`VI` = Vancouver Island, `BC` = Baja

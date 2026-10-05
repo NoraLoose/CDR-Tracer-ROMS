@@ -44,6 +44,13 @@ pacific/
     └── workflows/
 ```
 
+`roms/code_dor/` and `roms/code_oae/` are the top-level `code_dor/` and `code_oae/` of this
+repository (`cppdefs.opt`, `param.opt`, `surf_flux.opt`, `tracers.opt`, identical) plus the
+Pacific-specific settings: daily output and monthly restarts (`ocean_vars.opt`), the forcing
+time variable name (`bulk_frc.opt`), `diagnostics.opt`, and build files (`Makefile`,
+`Make.depend`, `roms_read_write.F`). The `code/` directories of the truth runs are a different
+configuration (ROMS coupled to MARBL).
+
 Scripts named `*_anvil.*` are the variants used for runs on Purdue's Anvil; the others are for
 NERSC Perlmutter.
 
