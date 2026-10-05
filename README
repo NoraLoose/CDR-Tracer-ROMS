@@ -5,10 +5,14 @@ a control run of ROMS coupled to MARBL, it builds everything needed to run
 ROMS *alone* with ocean-based CDR interventions (OAE, DOR) carried as passive
 tracers, without recoupling to MARBL for every intervention.
 
-It intentionally does **not** include the validation machinery from the
-companion project (truth experiments that rerun ROMS/MARBL per intervention,
-CESM/OceanSODA-based sensitivity comparisons, etc.) - just the pieces needed
-to set up and run the CDR tracer method itself.
+The top-level `code_*/` and `workflows/` contain just the pieces needed to set
+up and run the CDR tracer method itself. The as-run setup of the Pacific
+experiments in Loose et al. (in review, JAMES), including the ROMS/MARBL
+truth experiments the method is validated against, is in
+[`paper/`](paper/README.md). The figures are made in
+[CDR-Tracer-Paper](https://github.com/NoraLoose/CDR-Tracer-Paper), and the
+CESM version of the method is in
+[CDR-Tracer-CESM](https://github.com/NoraLoose/CDR-Tracer-CESM).
 
 ## Source code
 

@@ -1,0 +1,177 @@
+title:
+          pacmed12km , 12km resolution
+
+time_stepping: NTIMES   dt[sec]  NDTFAST  NINFO
+                5856       900       60      2
+
+S-coord: THETA_S,   THETA_B,    TCLINE (m)
+           6.0d0      6.0d0       250.d0
+
+grid:  filename
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_grd.nc
+
+forcing: filename
+       $TARGET_DIR/INPUT/PARTED/roms_frc_bgc_1999.nc
+       $TARGET_DIR/INPUT/PARTED/roms_frc_bgc_2000.nc
+       $TARGET_DIR/INPUT/PARTED/roms_frc_bgc_2021.nc
+       $TARGET_DIR/INPUT/PARTED/roms_tracer_surf_flux_1999.nc
+       $TARGET_DIR/INPUT/PARTED/roms_tracer_surf_flux_2000.nc
+       $TARGET_DIR/INPUT/PARTED/roms_tracer_surf_flux_2021.nc
+       $BASE_PATH/INPUT/PARTED/roms_bry_tracers.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.199912.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200001.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200002.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200003.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200004.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200005.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200006.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200007.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200008.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200009.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200010.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200011.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200012.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200101.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200102.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200103.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200104.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200105.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200106.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200107.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200108.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200109.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200110.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200111.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200112.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200201.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200202.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200203.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200204.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200205.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200206.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200207.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200208.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200209.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200210.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200211.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200212.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200301.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200302.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200303.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200304.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200305.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200306.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200307.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200308.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200309.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200310.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200311.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200312.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200401.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200402.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200403.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200404.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200405.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200406.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200407.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200408.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200409.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200410.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200411.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200412.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200501.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200502.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200503.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200504.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200505.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200506.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200507.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200508.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200509.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200510.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200511.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200512.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_frc.200601.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_1999.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2000.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2001.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2002.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2003.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2004.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2005.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_LFfrc_2006.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_1999.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2000.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2001.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2002.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2003.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2004.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2005.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_srfflx_2006.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2001_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2002_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2003_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2004_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2005_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_updtbgcflx_2006_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_1999.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2000.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2001.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2002.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2003.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2004.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2005.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bry_2006.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_1999_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2000_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2001_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2002_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2003_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2004_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2005_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_bgcbry_2006_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_default_bgcbry_MARBL.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_tidestpxo9_19950101.nc
+       $PACIFIC_PATH/INPUT/frc_partitioned_40x16/pacmed12_riv_MARBL.nc
+
+initial: NRREC  filename
+        2
+        $TARGET_DIR/OUTPUT/pacmed_rst.$RESTART_TIME.nc
+
+MARBL_biogeochemistry: namelist  tracer_output_list   diagnostic_output_list
+      marbl_in
+      marbl_tracer_output_list
+      marbl_diagnostic_output_list
+
+output_root_name:
+      $TARGET_DIR/OUTPUT/pacmed
+
+rho0:
+       1027.4d0
+
+lateral_visc:   VISC2,   
+                 0.     
+
+vertical_mixing:  Akv  Akt1  Akt2
+                 1.0E-4  0.0   0.0
+
+tracer_diff2: TNU2(1:NT)           [m^2/sec for all]
+              0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+
+bottom_drag:     RDRG [m/s],  RDRG2,  Zob [m],  Cdb_min, Cdb_max
+                 0.0E-04      0.d0     2.0E-2     1.E-4    1.E-2
+
+gamma2:
+                 1.d0
+
+v_sponge:         V_SPONGE [m^2/sec]
+                  500.
+
+ubind:  binding velocity [m/s]
+            0.2 
+
+SSS_correction:   dSSSdt [cm/day]
+                   7.777
+
+
+

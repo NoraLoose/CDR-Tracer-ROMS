@@ -2,8 +2,12 @@
 # copied in locally for a collaborator to browse - never commit these.
 *.nc
 
-# Jupyter
+# Jupyter / Python
 .ipynb_checkpoints/
+__pycache__/
+
+# Local ROMS checkout used for compiling
+/ucla-roms/
 
 # Slurm logs
 workflows/logs/
