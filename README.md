@@ -1,5 +1,22 @@
 ## CDR tracer method for ROMS
 
+> [!WARNING]
+> **If you want to use the CDR tracer method, start with the [C]Worthy tools below, not this
+> repository.** This repository records exactly what was used for Loose et al. (in review, JAMES),
+> which was the prototype of the method. Development continues in:
+>
+> - [**ucla-roms**](https://github.com/CWorthy-ocean/ucla-roms) (`main`): CDR tracers
+>   (`CDR_OAE_ALK`/`CDR_OAE_DIC` pairs and `CDR_DOR_DIC`) with linearized air-sea gas exchange
+>   driven by prescribed β and η, and online diagnosis of β and η in a ROMS/MARBL control run.
+> - [**roms-tools**](https://github.com/CWorthy-ocean/roms-tools): CDR tracer release forcing
+>   (`tracer_set="cdr_lite"` in `CDRForcing`). Offline computation of β and η from control-run
+>   output is in progress
+>   ([roms-tools#687](https://github.com/CWorthy-ocean/roms-tools/pull/687)).
+> - [**C-Star**](https://github.com/CWorthy-ocean/C-Star): namelist and build support for CDR
+>   tracer runs.
+>
+> Variable and tracer names differ between this repository and those tools.
+
 This repo is a standalone extraction of the CDR tracer method for ROMS: given
 a control run of ROMS coupled to MARBL, it builds everything needed to run
 ROMS *alone* with ocean-based CDR interventions (OAE, DOR) carried as passive
