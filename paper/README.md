@@ -13,18 +13,18 @@ The notebooks that turn this output into the paper's figures are in
 
 ## Model code
 
-| Component | Repository | Commit |
-|---|---|---|
-| ROMS | [NoraLoose/ucla-roms](https://github.com/NoraLoose/ucla-roms), branch `deficit-tracer-dor-oae` | TODO(Nora): confirm. Branch tip is `f131d2a` (2026-03-17). The executables in the run directories were built on 2025-12-29 and 2026-02-12. |
-| MARBL | [NoraLoose/MARBL](https://github.com/NoraLoose/MARBL) | TODO(Nora): confirm `marbl0.45.0` (`6e6b2f7`) or branch `deficit-tracer` (`b7071ca`) |
+| Component | Version |
+|---|---|
+| ROMS | [NoraLoose/ucla-roms](https://github.com/NoraLoose/ucla-roms/tree/deficit-tracer-dor-oae), branch `deficit-tracer-dor-oae` |
+| MARBL | [marbl-ecosys/MARBL](https://github.com/marbl-ecosys/MARBL/tree/marbl0.45.0), tag `marbl0.45.0` |
 
 `deficit-tracer-dor-oae` contains both the CDR tracer code and the full ROMS/MARBL coupling
 used for the truth experiments. The method-only branch `cdr-tracers` (see the top-level README)
 does not.
 
 The base Pacific configuration (grid `pacmed12_grd.nc`, physical forcing, boundary conditions,
-and the spun-up initial state) was not generated in this repository.
-TODO(Nora): say where it comes from.
+and the spun-up initial state) was provided by Pierre Damien (UCLA) and is not generated in this
+repository.
 
 ## Layout
 
